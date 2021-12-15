@@ -8,7 +8,7 @@ Python desenvolvida com base no ``SciPy``. O ``Scikit-learn`` se destaca em tare
 o desempenho do modelo e otimizar os hiperparâmetros do modelo em apenas algumas linhas de código.
 
 ``Keras`` oferece uma classe de wrapper que permite que você use seus modelos de aprendizado profundo
-com o scikit-learn. <font color="orange">Por exemplo</font>, uma instância da classe 
+com o scikit-learn. <font color="red">Por exemplo</font>, uma instância da classe 
 <font color="orange">KerasClassifier</font> em Keras pode envolver seu modelo de aprendizado
 profundo e ser usada como um Estimador no ``scikit-learn``. Ao usar a classe
 <font color="orange">KerasClassifier</font>, você deve especificar o nome de uma função que a
@@ -20,3 +20,8 @@ para o construtor da classe KerasClassifier que serão passados para a chamada p
 
 Nesta lição, nosso objetivo é desenvolver um modelo de aprendizado profundo e avaliá-lo usando
 a <font color="orange">validação cruzada</font> ``k-fold``.
+
+<font color="red">Por exemplo:</font> podemos definir uma instância de ``KerasClassifier`` 
+e a função personalizada para criar nosso modelo (ver lesson06).
+
+
